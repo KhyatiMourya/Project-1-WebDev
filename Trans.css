@@ -1,0 +1,94 @@
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, black,rgb(63, 63, 63));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px 40px;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 28px;
+    color: beige;
+    text-shadow: 1px 1px 4px rgb(37, 36, 36);
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    resize: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  textarea::placeholder {
+    color: whitesmoke;
+  }
+  
+  .language-select {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .language-select label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color:white;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(16, 16, 16, 0.15);
+    color: rgb(119, 110, 118);
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, pink, rgb(140, 80, 172));
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(247, 0, 255, 0.3);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #a900ff, #007db3);
+    transform: scale(1.01);
+  }
+  
